@@ -15,3 +15,6 @@ sudo apt install apksigner
 keytool -printcert -jarfile <Signal-website-download-file.apk> | grep SHA256
 
 #now compare compare whether the two SHA256 fingerprints match
+
+Also, for good measure, have a sha512 checksum :)
+a53f6271fc9ac6cc4c55a6ccc24c5fecdb1ca8dbc435417249b75e734cb9bd5d8ed22de523bbac614872e836003972a00e29019ed980cdc9b3525b8b5f563a27  Signal-website-universal-release-4.71.5.apk
